@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    // class div h1 p img color background border-radius button border width
+    height box-shadow google fonts a br font-size b s target="_blank" position absolute relative top left
+  <div class="card">
+      <img
+        class="card__img"
+        src="https://eimg.pravda.com/images/doc/8/f/8f27edc-blackhole-ep_690x426.jpg"
+        alt=""
+      />
+      <h3 class="special__text">new article</h3>
+      <h2 class="card__title">
+        Головні відкриття астрофізики за останні 10 років
+      </h2>
+      <p class="card__text">
+        Гравітаційні поля чорних дір настільки сильні, що вони всмоктують
+        всередину все, що туди потрапляє, включаючи випромінювання, газ і
+        планети. Чорні діри <b>змінюють геометрію простору і часу</b>. Вони невидимі,
+        тому що не пропускають світло. Кордон чорної діри називають горизонтом
+        подій. Міжнародний проект Event Horizon Telescope 10 квітня <s>2018</s> 2019 року
+        представив перший знімок горизонту подій чорної діри.
+      </p>
+      <a target="_blank" class="card__link" href="#">Прочитати повністю</a>
+      <button class="card__btn">Залишити відгук</button>
+    </div>
+
+    
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;600;700&display=swap");
+      body {
+        background: skyblue;
+        font-family: Arimo;
+      }
+      .card {
+        margin-left: 50px;
+        margin-top: 50px;
+        border-radius: 20px;
+        background: white;
+        padding: 30px;
+        width: 300px;
+        position: relative;
+      }
+      .special__text {
+        border-radius: 10px;
+        background: rgb(139, 218, 99);
+        padding: 7px 20px;
+        color: white;
+        position: absolute;
+        top: 30px;
+        right: 50px;
+        font-size: 14px;
+        border: 2px solid orange;
+      }
+      .card__img {
+        border-radius: 20px;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 0;
+        width: 100%;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+      }
+      .card__title {
+        font-weight: bold;
+        margin-top: 20px;
+        color: purple;
+      }
+      .card__text {
+        color: #333;
+      }
+      .card__link {
+        color: black;
+      }
+      .card__btn {
+        padding: 5px 20px;
+        border: 1px solid skyblue;
+        background: linear-gradient(45deg, skyblue, pink);
+      }
+    </style>
+
+
+<script>
+
+let data = [
+    {
+     title: 'Головні відкриття астрофізики за останні 10 років',
+     text: 'Гравітаційні поля чорних дір настільки сильні, що вони всмоктують всередину все, що туди потрапляє, включаючи випромінювання, газ і планети. Чорні діри змінюють геометрію простору і часу. Вони невидимі, тому що не пропускають світло. Кордон чорної діри називають горизонтом подій. Міжнародний проект Event Horizon Telescope 10 квітня 2018 2019 року представив перший знімок горизонту подій чорної діри.',
+     link: {
+        url: 'http://127.0.0.1:5500/index.html#',
+        text: 'Прочитати повністю',
+     },
+     button: 'Залишити відгук',
+     photo: 'https://eimg.pravda.com/images/doc/8/f/8f27edc-blackhole-ep_690x426.jpg',
+     label: 'Нова стаття',
+    }
+]
+
+
+</script>
+  </body>
+</html>
+
+
+
+
+
